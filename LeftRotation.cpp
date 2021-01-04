@@ -7,7 +7,7 @@ vector<string> split_string(string);
 // Complete the rotLeft function below.
 vector<int> rotLeft(vector<int> a, int d) {
 
-vector<int> b;
+vector <int> b;
 for(auto it=a.begin()+d;it!=a.end();it++){
     b.push_back(*it);
 }
